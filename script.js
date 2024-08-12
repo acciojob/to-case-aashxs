@@ -5,8 +5,8 @@ function toCase(text) {
 		return a;
 	}
 	else{
-		let new1=text.toUpperCase;
-		let new2=text.toLowerCase;
+		let new1=text.toUpperCase();
+		let new2=text.toLowerCase();
 		let ans=`${new2}-${new1}`;
 		return ans;
 	}
